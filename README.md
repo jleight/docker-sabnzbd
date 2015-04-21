@@ -28,6 +28,6 @@ The sabnzbd container exposes two volumes that you may want to use:
 The first time the sabnzbd container starts, a `sabnzbd.ini` file will be
 created in the `/etc/opt/sabnzbd` directory that exposes sabnzbd on the
 `0.0.0.0` interface. This allows remote (external to the container)
-configuration of sabnzbd by visiting http://<container-ip>:8080/sabnzbd.
+configuration of sabnzbd by visiting http://&lt;container-ip&gt;:8080/sabnzbd.
 The first time you visit the sabnzbd application, you will be asked to follow
 the setup wizard.
